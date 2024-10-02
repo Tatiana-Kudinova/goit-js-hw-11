@@ -25,7 +25,6 @@ function onSubmit(event) {
   const query = event.currentTarget.elements.query.value.trim();
 
   if (query === '') {
-    refs.gallery = null;
     iziToast.show({
       message:
         'Sorry, there are no images matching your search query. Please try again!',
